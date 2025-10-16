@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML form</title>
+</head>
+<body>
+    <div class="box">
+        <form action="#">
+            <div class="text-box">
+                <label for="name">Name <i class='bxr  bx-user'  ></i></label>
+                <input class = "input-box" type="text" id="name" placeholder="Name" title = "Enter your name" minlenght = "2" maxlength = "20" required>
+            </div>
+            <div class="text-box">
+                <label for="email">Email <i class='bxr  bx-envelope-open'  ></i></label>
+                <input class = "input-box" type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="text-box can-stretch">
+                <label for="message">Message <i class='bxr  bx-message'  ></i> </label>
+                <textarea class = "input-box" id="message" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button class = "btn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
