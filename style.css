@@ -161,9 +161,3 @@ body{
 .form-control.btn-custom::placeholder, .form-control.input-custom::placeholder{
     color:white;
 }
-
-/* Registration Form Rask */
-
-.card.container-bootstrap{
-    background: transparent;
-}
