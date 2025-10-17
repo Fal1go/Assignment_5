@@ -90,10 +90,30 @@ body{
     margin-bottom: 30px;
 }
 
+.round-btn{
+    position: fixed;
+    top:60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    width: 120px;
+    font-size: 36px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.round-btn i{
+    color: #1E2340;
+}
+
 .btn{
     width: 100%;
     height: 45px;
-    background: rgb(243, 243, 243);
+    background: rgb(255, 255, 255);
     color: #1E2340;
     border: none;
     outline: none;
@@ -102,4 +122,48 @@ body{
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
+}
+
+.btn:hover{
+    background: rgb(240, 240, 240);
+}
+
+.btn:active{
+    background: rgb(220, 220, 220);
+}
+
+/* Boostrap Form Task */
+
+.btn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bootstrap-body{
+    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(Images/bg.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.card.container-bootstrap, .form-control.btn-custom, .form-control.input-custom, .card.container-registration{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    /* border-color: rgb(255, 255, 255, 0.3); */
+    backdrop-filter: blur(30px);
+}
+
+.btn.btn-custom{
+    color:#1E2340;
+}
+
+.form-control.btn-custom::placeholder, .form-control.input-custom::placeholder{
+    color:white;
+}
+
+/* Registration Form Rask */
+
+.card.container-bootstrap{
+    background: transparent;
 }
