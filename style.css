@@ -132,6 +132,60 @@ body{
     background: rgb(220, 220, 220);
 }
 
+/* Mobile Screen */
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px;
+    margin-top: 60px;
+    background-size: cover;
+    justify-content: flex-start;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 360px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 25px;
+  }
+
+  .text-box input {
+    height: 60px;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 12px 15px;
+  }
+
+  .text-box textarea {
+    width: 100%;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .round-btn {
+    top: 20px;
+    width: 90px;
+    font-size: 28px;
+    padding-top: 5px;
+    z-index: 999;
+  }
+
+  .btn {
+    height: 40px;
+    font-size: 13px;
+    border-radius: 12px;
+  }
+
+  .can-stretch {
+    margin-top: 15px;
+    padding-top: 8px;
+  }
+}
+
+
 /* Boostrap Form Task */
 
 .btn-box{
